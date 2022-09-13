@@ -6,14 +6,19 @@ body{
 h1{
     font-family: "Sofia", sans-serif;
 }
+#tag-line:hover{
+    color: rgb(95, 230, 212);
+    font-size: 30px;
+}
 .highlight{
     color: rgb(165, 42, 149);
     font-size: 40px;
 }
-h3{
+#tag-line{
     color: red;
 }
 .half-block{
+    border: 10px;
     width: 45%;
     float: left;
     margin-top: 2%;
@@ -22,7 +27,7 @@ h3{
 
 }
 .half-block img{
-    width: 100%;
+    width: 88%;
 }
 .link-button{
     text-decoration: none;
@@ -40,4 +45,12 @@ h3{
 
 section{
     height: 500px;
+}
+.download-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,salmon,tomato);
+    border-radius: 10px;
+    padding: 10px 25px;
+    color: white;
+    font-size: 20px;
 }
