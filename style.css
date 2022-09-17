@@ -72,9 +72,11 @@ section{
     border-left: 7px solid;
     border-image: linear-gradient(180deg,lightsalmon, tomato);
     border-image-slice: 1;
+    padding: 15px;
 }
 #entry{
     border-left: 7px solid;
     border-image: linear-gradient(180deg,blue, cyan);
     border-image-slice: 1;
+    padding: 10px;
 }
