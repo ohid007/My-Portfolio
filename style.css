@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(65deg,white,gray);
+    
     margin: 0px;
     padding: 0px;
 }
@@ -12,7 +12,7 @@ h1{
 }
 .highlight{
     color: rgb(165, 42, 149);
-    font-size: 40px;
+    font-size: 30px;
 }
 #tag-line{
     color: red;
@@ -28,6 +28,7 @@ h1{
 }
 .half-block img{
     width: 88%;
+
 }
 .link-button{
     text-decoration: none;
@@ -46,11 +47,34 @@ h1{
 section{
     height: 500px;
 }
-.download-button{
-    text-decoration: none;
-    background-image: linear-gradient(45deg,salmon,tomato);
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+     
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
-    padding: 10px 25px;
-    color: white;
-    font-size: 20px;
+    height: 50%;
+    background-color: white;
+    width: 40%;
+    
+
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+} 
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#entry{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
 }
